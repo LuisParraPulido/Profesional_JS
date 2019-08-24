@@ -1,0 +1,12 @@
+{
+  "name": "platzi-media-player",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "platzi"
+  ],
+  "author": "Luis Alberto Parra Pulido <luis.parra.pulido@gmail.com>",
+  "license": "MIT"
+}
