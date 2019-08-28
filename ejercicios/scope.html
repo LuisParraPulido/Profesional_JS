@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scope</title>
+</head>
+<body>
+    <a href="./">Go back</a>
+    <p><em>Abre la consola</em></p>
+
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+    
+    <script>
+    //Global Scope
+    // var message = 'Hello, luis!'
+    // var $ = function(message) {
+    //     console.log('Say: ' + message)
+    // }
+
+    //function Scope
+    // function printNumbers() {
+    //     var i
+    //     for(i = 0; i < 10; i++) {
+    //         function eventuallyPrintNumber(n) {
+    //             setTimeout(function() {
+    //                 console.log(n)
+    //             }, 100);
+    //         }
+
+    //         eventuallyPrintNumber(i)
+    //     }
+    // }
+
+    // printNumbers()
+
+    //Block Scope
+    function printNumbers2() {
+        for(let i = 0; i < 10; i++){
+            setTimeout(function() {
+                console.log(i)
+            }, 100)
+        }
+    }
+
+    printNumbers2()
+
+    //Module Scope
+    //la vida de una variable va a estar limitado al scope del script
+    //script type="module" esto limita el alcance de las variables a solo el script
+    </script>
+
+
+</body>
+</html>
