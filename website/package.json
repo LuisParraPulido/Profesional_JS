@@ -17,5 +17,9 @@
   },
   "browserslist": [
     "last 1 Chrome version"
-  ]
+  ],
+  "dependencies": {
+    "@luisparradv/mediaplayer": "^1.0.0",
+    "serialize-to-js": "^3.0.0"
+  }
 }
